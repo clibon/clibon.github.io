@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   A documentation site for my homelab
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://clibon.github.io"
+url: "https://docs.cliftonbonello.com"
 
 github:
   username: clibon # change to your github username
@@ -41,7 +41,7 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/il_bonell # change to your twitter homepage
+    - https://twitter.com/il_bonell  # change to your twitter homepage
     - https://github.com/clibon # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
