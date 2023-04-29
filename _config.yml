@@ -20,10 +20,10 @@ timezone: Europe/Malta
 
 title: HomeLab Docs # the main title
 
-tagline: A docs site for my homelab journey # it will display as the sub-title
+tagline: A documentation site for my homelab journey # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A docs site for my homelab
+  A documentation site for my homelab
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://clibon.github.io"
@@ -32,7 +32,7 @@ github:
   username: clibon # change to your github username
 
 twitter:
-  username: twitter_username # change to your twitter username
+  username: il_bonell # change to your twitter username
 
 social:
   # Change to your full name.
