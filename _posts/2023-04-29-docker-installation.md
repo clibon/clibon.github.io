@@ -60,7 +60,8 @@ apt-cache policy docker-ce
 You’ll see output like this, although the version number for Docker may be different:
 
 ```text
-Output of apt-cache policy docker-ce
+Output of apt-cache policy docker-ce:
+
 docker-ce:
   Installed: (none)
   Candidate: 5:20.10.14~3-0~ubuntu-jammy
@@ -88,7 +89,7 @@ sudo systemctl status docker
 The output should be similar to the following, showing that the service is active and running:
 
 ```text
-Output
+Output:
 ● docker.service - Docker Application Container Engine
      Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
      Active: active (running) since Fri 2023-04-28 21:30:25 UTC; 22s ago
@@ -108,7 +109,8 @@ Installing Docker now gives you not just the Docker service (daemon) but also th
 By default, the docker command can only be run the root user or by a user in the docker group, which is automatically created during Docker’s installation process. If you attempt to run the docker command without prefixing it with sudo or without being in the docker group, you’ll get an output like this:
 
 ```text
-Output
+Output:
+
 docker: Cannot connect to the Docker daemon. Is the docker daemon running on this host?.
 See 'docker run --help'.
 ```
@@ -127,7 +129,8 @@ Confirm that your user is now added to the docker group by typing:
 groups
 ```
 ```text
-Output
+Output:
+
 sammy sudo docker
 ```
 If you need to add a user to the docker group that you’re not logged in as, declare that username explicitly using:
