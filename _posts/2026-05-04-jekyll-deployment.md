@@ -16,3 +16,5 @@ To follow this tutorial, the following are required:
 1. A working GitHub Account
 
 # Installation Steps
+
+To be completed.
